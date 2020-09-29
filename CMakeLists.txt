@@ -7,6 +7,10 @@ find_package(ROOT COMPONENTS RIO Tree)
 
 #---------------------------------------------------------------
 # Load macros and functions for Gaudi-based projects
+
+if( NOT DEFINED ENV{LCG_VERSION})
+  set(HOST_BINARY_TAG x86_64-linux-gcc9-opt)
+endif()
 find_package(GaudiProject)
 #---------------------------------------------------------------
 
