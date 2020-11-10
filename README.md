@@ -13,7 +13,7 @@ This repository can be a starting point and template for projects using the Key4
 
 * Gaudi
 
-* K4FWCore
+* k4FWCore
 
 ## Installation
 

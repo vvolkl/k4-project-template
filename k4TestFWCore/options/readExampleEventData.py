@@ -1,7 +1,7 @@
 from Gaudi.Configuration import *
 
-from Configurables import K4DataSvc
-podioevent = K4DataSvc("EventDataSvc")
+from Configurables import k4DataSvc
+podioevent = k4DataSvc("EventDataSvc")
 podioevent.input = "output_k4test_exampledata.root"
 from Configurables import CreateExampleEventData
 producer = CreateExampleEventData()
